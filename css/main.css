@@ -453,3 +453,14 @@ span {
   font-weight: light;
   margin-left: 19px;
 }
+.team_layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.team_layout figure {
+  margin: 0;
+}
+.team_layout figure img {
+  display: block;
+  width: 100%;
+}
