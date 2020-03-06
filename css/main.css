@@ -457,10 +457,14 @@ span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
-.team_layout figure {
-  margin: 0;
+.team_layout figure figcaption {
+  font-family: 'Permanent Marker';
+}
+.team_layout figure p {
+  font-family: Montserrat;
 }
 .team_layout figure img {
   display: block;
   width: 100%;
+  margin: 0;
 }
