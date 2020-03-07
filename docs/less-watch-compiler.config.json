@@ -1,5 +1,6 @@
 {
     "watchFolder": "less",
     "outputFolder": "css",
-    "mainFile": "main.less"
+    "mainFile": "main.less",
+    "math": "parens-division"
 }

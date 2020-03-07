@@ -1,5 +1,5 @@
 {
-    "watchFolder": "less",
-    "outputFolder": "css",
+    "watchFolder": "docs/less",
+    "outputFolder": "docs/css",
     "mainFile": "main.less"
 }

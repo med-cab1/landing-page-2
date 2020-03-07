@@ -1,7 +1,7 @@
 //card subtle will style its container with a slight lift athe the bottom border, with a slight crisp line.
 
-.cardSubtle(@borderStyle:solid 1px black,@borderRadiusSize:10px){
-    background-color: rgba(0,0,0,0.2);
+.cardSubtle(@borderStyle:solid 1px black,@borderRadiusSize:17%){
+    background-color: rgba(0,0,0,0.04);
     border-bottom:@borderStyle; 
     border-bottom-left-radius:@borderRadiusSize;
     border-bottom-right-radius:@borderRadiusSize;
@@ -12,3 +12,9 @@
     font-size:@size;
     font-style:@style;
 };
+
+.responsive(@width; @rules) {
+    @media only screen and (min-width: @width) {
+        @rules();
+    }
+}
